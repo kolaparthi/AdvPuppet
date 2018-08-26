@@ -1,0 +1,9 @@
+
+Writing coding rules in Java is a six-step process:
+====================================================
+1)Create a SonarQube plugin.
+2)Put a dependency on the API of the language plugin for which you are writing coding rules.
+3)Create as many custom rules as required
+4)Generate the SonarQube plugin (jar file)
+5)Place this jar file in the SONARQUBE_HOME/extensions/plugins directory
+6)Restart SonarQube server
